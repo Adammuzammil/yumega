@@ -72,6 +72,7 @@ export async function POST(req: Request) {
     };
 
     const newUser = await createUser(user);
+    //E1M0SnJnZNy3W570
 
     // Set public metadata
     if (newUser) {
